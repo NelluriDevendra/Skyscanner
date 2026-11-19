@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body{
+    background-color:#6B9080;
+    width: 100%;
+}
 .website-logo{
     height: auto;
     width: 20%;
@@ -65,4 +69,30 @@ a{
         display: none;
     }
 
+}
+.section-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.section-list img{
+    height: auto;
+    width: 25%;
+}
+.section-list-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: #6B9080;
+    border-style: solid;
+    border-color: #87a497;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+@media (max-width:440px){
+    .section-list-buttons{
+        width: 30%;
+    }
 }
